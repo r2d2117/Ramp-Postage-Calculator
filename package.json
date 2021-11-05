@@ -1,0 +1,26 @@
+{
+  "name": "ramp-postage-calculator",
+  "version": "1.0.0",
+  "description": "A postage calculator API for ECSE 428 assignment 2",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r2d2117/Ramp-Postage-Calculator.git"
+  },
+  "keywords": [
+    "postage",
+    "calculator"
+  ],
+  "author": "Thomas Woodfine-MacPherson and Amine Mallek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r2d2117/Ramp-Postage-Calculator/issues"
+  },
+  "homepage": "https://github.com/r2d2117/Ramp-Postage-Calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
