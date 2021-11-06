@@ -4,7 +4,7 @@
   "description": "A postage calculator API for ECSE 428 assignment 2",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "npx cypress run --spec 'cypress/integration/cypress_tests.js'"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/r2d2117/Ramp-Postage-Calculator#readme",
   "dependencies": {
+    "cypress": "^8.7.0",
     "express": "^4.17.1"
   }
 }
