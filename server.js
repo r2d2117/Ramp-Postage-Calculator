@@ -45,7 +45,6 @@ function isEnvelopeAllowed(size) {
     } else if (size.width > 270) {
         return false;
     } else if (size.weight > 500) {
-        console.log('here');
         return false;
     } else {
         return true;
@@ -54,13 +53,13 @@ function isEnvelopeAllowed(size) {
 
 function calculateShippingCost(isStandard, weight) {
     if (isStandard && weight <= 30) {
-        return 0.49;
+        return '0.49';
     } else if (isStandard && (weight > 30 || weight <= 50)) {
-        return 0.80;
+        return '0.80';
     } else if (!isStandard && weight <= 100) {
-        return 0.98;
+        return '0.98';
     } else {
-        return 2.40;
+        return '2.40';
     }
 }
 
@@ -103,5 +102,9 @@ app.get('/:units/:length/:width/:weight', (req, res) => {
 
 
 })
+
+app.get('/*', function (req, res) {
+    res.sendStatus(404);
+});
 
 app.listen(4000)

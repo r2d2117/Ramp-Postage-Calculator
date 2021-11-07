@@ -4,7 +4,7 @@
   "description": "A postage calculator API for ECSE 428 assignment 2",
   "main": "server.js",
   "scripts": {
-    "test": "npx cypress run --spec 'cypress/integration/cypress_tests.js'"
+    "test": "npx cypress run --headless --spec 'cypress/integration/cypress_tests.js'"
   },
   "repository": {
     "type": "git",
