@@ -1,13 +1,18 @@
 # Ramp-Postage-Calculator
 ramp postage calculator for ecse 428
 
-# Clone the repository and cd Ramp-Postage-Calculator
+## Project setup
+```
+npm install
+```
 
-# Install project dependencies
-npm install 
-
-# Start the api 
+### Starts the API locally
+```
 npm start
+```
 
-# Run Cypress Tests
+### Run test suite
+```
 npm test
+```
+
